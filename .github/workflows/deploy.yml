@@ -86,8 +86,8 @@ jobs:
                       git clone https://github.com/NikitaSalunkhe11/deploy_react_app.git .
                       git fetch origin main
 
-                      sudo docker stop react-app
-                      sudo docker rm react-app
+                      sudo docker stop react-app || true
+                      sudo docker rm react-app || true
                       # Build the multi-stage Docker image defined in your Dockerfile
                       sudo docker build -t react-app:latest .
 
