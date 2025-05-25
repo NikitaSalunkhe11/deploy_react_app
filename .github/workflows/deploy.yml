@@ -83,7 +83,7 @@ jobs:
                       rm -rf react-app
                       mkdir react-app
                       cd ~/react-app
-                      git clone https://github.com/yogeshOzaDeanInfotech/cicd-react-demo.git .
+                      git clone https://github.com/NikitaSalunkhe11/deploy_react_app.git .
                       git fetch origin main
 
                       sudo docker stop react-app
